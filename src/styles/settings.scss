@@ -8,3 +8,11 @@
 // @use 'vuetify/settings' with (
 //   $color-pack: false
 // );
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+
+$body-font-family: "Nanum Gothic", sans-serif;
+$headings-font-family: "Nanum Gothic", sans-serif;
+
+html {
+  font-family: $body-font-family;
+}

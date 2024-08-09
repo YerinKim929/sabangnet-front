@@ -68,10 +68,13 @@
 
 #### 풀필먼트 어드민
 - `develop-fulfillment-admin`
+- `https://intern-fa.fbsabang.co.kr`
 #### 풀필먼트 운송장 출력 양식
 - `develop-fulfillment-shipping-label`
+- `https://intern-fs.fbsabang.co.kr`
 #### 사방넷 쇼핑몰 연동
 - `develop-sabangnet`
+- `https://intern-sb.fbsabang.co.kr`
 
 각 서브 브랜치는 과제의 특정 측면을 다루며, 해당 작업이나 기능을 반영하는 이름으로 지정됩니다. (멘토 가이드에 따라 진행)
 ex)

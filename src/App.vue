@@ -1,11 +1,13 @@
+<!-- src/App.vue -->
 <template>
-  <v-app>
-    <v-main>
-      <router-view />
-    </v-main>
-  </v-app>
+  <component :is="layoutComponent">
+    <router-view />
+  </component>
 </template>
 
 <script setup>
-  //
+import { useRoute } from "vue-router";
+
+const route = useRoute();
+const layoutComponent = computed(() => route.meta.layoutComponent);
 </script>

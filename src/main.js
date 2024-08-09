@@ -12,8 +12,11 @@ import App from './App.vue'
 
 // Composables
 import { createApp } from 'vue'
+import axios from 'axios'
 
 const app = createApp(App)
+
+app.config.globalProperties.$axios = axios;
 
 registerPlugins(app)
 
